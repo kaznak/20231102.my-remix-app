@@ -4,7 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "dev": "node --inspect server.mjs",
+    "dev": "remix dev -c \"node server.mjs\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kaznak <kaznak.at.work@ipebble.org",
